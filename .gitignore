@@ -1,0 +1,7 @@
+# Project exclude paths
+/01-rabbitmq/target/
+/01-rabbitmq-springboot/target/
+/001-rabbitmq/target/
+/02-rabbitmq-springboot/target/
+/002-rabbitmq-springboot/target/
+/03-rabbitmq-springboot-mirror-cluster/target/

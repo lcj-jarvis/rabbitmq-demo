@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01-rabbitmq-springboot" />
+        <module name="001-rabbitmq" />
+        <module name="01-rabbitmq" />
+        <module name="02-rabbitmq-springboot" />
+        <module name="03-rabbitmq-springboot-mirror-cluster" />
+        <module name="002-rabbitmq-springboot" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="001-rabbitmq" target="1.8" />
+      <module name="002-rabbitmq-springboot" target="1.8" />
+      <module name="01-rabbitmq" target="1.8" />
+      <module name="01-rabbitmq-springboot" target="1.8" />
+      <module name="02-rabbitmq-springboot" target="1.8" />
+      <module name="03-rabbitmq-springboot-mirror-cluster" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="002-rabbitmq-springboot" options="-parameters" />
+      <module name="01-rabbitmq-springboot" options="-parameters" />
+      <module name="02-rabbitmq-springboot" options="-parameters" />
+      <module name="03-rabbitmq-springboot-mirror-cluster" options="-parameters" />
+    </option>
+  </component>
+</project>

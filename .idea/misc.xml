@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/01-rabbitmq" />
+    <file type="web" url="file://$PROJECT_DIR$/../rebbitmq-demo/01-rabbitmq" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../rebbitmq-demo/01-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/01-rabbitmq-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/02-rabbitmq-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/01-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/03-rabbitmq-springboot-mirror-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/001-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/002-rabbitmq-springboot/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_13" default="false">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
